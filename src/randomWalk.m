@@ -6,7 +6,7 @@ statistics: Lecture notes to IN-ST 259. University of Oslo. https://www.mn.uio.n
 Q(k − 1) = 1 for k = 1, ..., 50 and = 0.1 for k = 51, ..., 100. Observations are simulated with R(k)=0.5 for all k.
 %}
 
-randn('state'); % Initialize the random number generator state
+rng(sd)
 
 n = 100; % Number of data points
 
